@@ -1,8 +1,3 @@
-// Using the data retrieved from the API Endpoint, 
-// write a function called 'getPopulation' that returns the total population
-// for all countries that BOTH border China
-// and list English as one of their official languages
-
 //NOTE: You are NOT permitted to use FOR, FOREACH, or WHILE loops of any kind.
 //      You must leverage the available JavaScript Array Iteration Functions to accomplish your goal.
 //      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods
