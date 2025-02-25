@@ -22,7 +22,7 @@
             test.run(populationResult, countriesResult) // will output test result to browser console
         })
 
-    // WRITE YOUR getPopulation FUNCTION BELOW
+    // WRITE YOUR getPopulation and findHighPopulationCountries FUNCTIONS BELOW
     // |           |             |           |
     // V           V             V           V
     
