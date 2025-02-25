@@ -7,7 +7,9 @@
 
 ## Array FUNctions
 
-Using the data retrieved from the provided API Endpoint, write a function called 'getPopulation' that returns the total population for all countries that BOTH border *China* and list *English* as one of their official languages
+Using the data retrieved from the provided API Endpoint, write:
+1) a function called 'getPopulation' that returns the total population for all countries that BOTH border *China* and list *English* as one of their official languages
+2) a function called 'findHighPopulationCountries' that returns the countries in Europe with a population greater than 85 million
 
 ### Requirements
 
