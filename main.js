@@ -11,7 +11,7 @@
 
 (function(test){
 
-    fetch(`https://prog2700.onrender.com/countries/`)
+    fetch(`https://countries-data-zclf.onrender.com/countries`)
         .then(response => response.json())
         .then(json => {
             //DO NOT MODIFY THIS CODE
@@ -30,3 +30,4 @@
     
 
 })(test);
+
