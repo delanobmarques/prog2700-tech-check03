@@ -15,15 +15,12 @@ Using the data retrieved from the [TVMaze Breaking Bad API](https://api.tvmaze.c
 
 Accepts the **episodes** array and returns an array of episode **names** (strings) for all episodes with an average rating of **9.0 or above**, in the order they appear in the data.
 
-> **Hint:** Each episode object has a `name` property (string) and a nested `rating.average` property (number).
-
 ---
 
 ### 2. `getCastMemberNames(cast)`
 
 Accepts the **cast** array and returns an array of **character names** (strings) for all **female** cast members, in the order they appear in the data.
 
-> **Hint:** Each cast entry has a `person.gender` property (string) and a `character.name` property (string).  
 > **Note:** This dataset contains the **main cast only** (11 members total).
 
 ---
@@ -33,7 +30,6 @@ Accepts the **cast** array and returns an array of **character names** (strings)
 Accepts the **episodes** array and returns a plain object where each key is a **season number** and each value is the **average episode rating** for that season, rounded to **two decimal places**.
 
 > **Expected shape:** `{ 1: 8.07, 2: 8.17, 3: 8.23, 4: 8.27, 5: 8.06 }`  
-> **Hint:** Consider using `reduce` to accumulate totals and counts per season, then compute the averages.
 
 ---
 
@@ -42,7 +38,6 @@ Accepts the **episodes** array and returns a plain object where each key is a **
 Accepts the **episodes** array and returns a plain object where each key is a **season number** and each value is the **name** of the lowest-rated episode in that season.
 
 > **Expected shape:** `{ 1: 'Cancer Man', 2: 'Down', 3: 'Fly', 4: 'Open House', 5: 'Rabid Dog' }`  
-> **Hint:** Consider using `reduce`, tracking the lowest-rated episode seen so far per season.
 
 ---
 
@@ -54,9 +49,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 ### Submission Instructions
 
-Once your program is complete, or if you run out of in-class time to complete the Tech Check, commit and push your code to GitHub with the commit message **"End of Class"**
+Once your program is complete, or if you run out of in-class time to complete the Tech Check, commit and push your code to GitHub with the commit message **"EndOfClass"**
 
-If you complete the Tech Check outside of class time, commit and push your subsequent code additions and changes with the message **"Ready for Marking"**
+If you complete the Tech Check outside of class time, commit and push your subsequent code additions and changes with the message **"ReadyForMarking"**
 
 ### Marking Scheme
 
